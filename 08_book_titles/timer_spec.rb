@@ -41,7 +41,7 @@ describe "Timer" do
   # One way to implement the Timer is with a helper method.
   # This helper method would be called by time_string.
   # Uncomment these specs if you want to be tested for this helper method.
-  #
+  # #
   # describe 'padded' do
   #   it 'pads zero' do
   #     @timer.padded(0).should == '00'
