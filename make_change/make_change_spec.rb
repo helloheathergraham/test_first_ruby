@@ -8,7 +8,7 @@ describe Changer do
 
   it 'can change multiple quarters' do
     Changer.make_change(50).should == [25, 25]
-  end
+  endssssss
 
   it 'can change one dime' do
     Changer.make_change(10).should == [10]

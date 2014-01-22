@@ -14,13 +14,10 @@ class Changer
 
 		pennies = remainder3 / 1
 
-
-
 		quarters.times { |x| change << 25 }
 		dimes.times { |x| change << 10 }
 		nickels.times { |x| change << 5 }
 		pennies.times { |x| change << 1}
-
 
 		change
 	end
